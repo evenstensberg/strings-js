@@ -1,5 +1,5 @@
 {
-  "name": "strings-js",
+  "name": "@ev1stensberg/strings-js",
   "version": "1.0.0",
   "description": "Read a JavaScript file and parse its strings into an array (AST-based, powered by the TypeScript compiler).",
   "license": "MIT",
