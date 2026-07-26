@@ -1,0 +1,29 @@
+{
+  "name": "strings-js",
+  "version": "1.0.0",
+  "description": "Read a JavaScript file and parse its strings into an array (AST-based, powered by the TypeScript compiler).",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "strings-js": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "typescript": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2"
+  }
+}
